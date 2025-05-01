@@ -63,11 +63,11 @@ body {
 .contact-col button[type="submit"] {
     display: inline-block;
     text-decoration: none;
-    color: #ffffff;
-    border: 2px solid orange;
+    color: #0c0c0c;
+    border: 2px solid rgb(249, 152, 7);
     padding: 12px 34px;
     font-size: 14px;
-    background: orange;
+    background: rgb(238, 238, 236);
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 4px;
