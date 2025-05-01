@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <button class="menu-toggle" aria-label="Toggle menu">
-        <i class="fa fa-bars"></i>
+        <i class="fas fa-bars"></i>
     </button>
     <div class="menu-overlay"></div>
     
     <nav class="navbar" id="navbars">
-        <a href="#home">
-            <img src="images/weblogo.png " alt="Sindhu Tripura Logo">
+        <a href="#home" class="logo-container">
+            <img src="images/weblogo.png" alt="Sindhu Tripura Logo">
             <span>SindhuTripuraGrill</span>
         </a>
-        <ul>
+        <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
@@ -30,7 +30,7 @@
         </ul>
     </nav>
 
-    <div id="main"  >
+    <div id="main">
         <div id="home"></div>
         <div class="textbox">
             <h1>Sindhu Tripura Grill Workshop</h1>
@@ -77,7 +77,7 @@
                 <p>Professional welding for all types of metal work</p>
             </div>
             <div class="services-col">
-                <img src="images/consult.jpeg   " alt="Design Consultation" class="section-icon">
+                <img src="images/consult.jpeg" alt="Design Consultation" class="section-icon">
                 <h3>Design Consultation</h3>
                 <p>Expert advice on metal work design and implementation</p>
             </div>
@@ -97,15 +97,15 @@
             </div>
             <div class="design-col">
                 <img src="images/raili1.jpg" alt="Custom Railing Design">
-                <img src="images/raili2.jpg" >
-                <img src="images/raili3.jpg" >
+                <img src="images/raili2.jpg">
+                <img src="images/raili3.jpg">
                 <h3>Railing</h3>
                 <p>Beautiful and sturdy railings for balconies and staircases</p>
             </div>
             <div class="design-col">
                 <img src="images/flower1.jpeg" alt="Custom Flower Pot Stand">
-                <img src="images/flower2.jpeg" >
-                <img src="images/flower3.jpeg" >
+                <img src="images/flower2.jpeg">
+                <img src="images/flower3.jpeg">
                 <h3>Flower Pot Stand</h3>
                 <p>Elegant metal stands to showcase your plants</p>
             </div>
@@ -137,21 +137,21 @@
         <div class="row">
             <div class="contact-col">
                 <div>
-                    <i class="fa fa-home"></i>
+                    <i class="fas fa-home"></i>
                     <span>
                         <h5>Tikathali,Lalitpur</h5>
                         <p>Lalitpur, Nepal</p>
                     </span>
                 </div>
                 <div>
-                    <i class="fa fa-phone"></i>
+                    <i class="fas fa-phone"></i>
                     <span>
                         <h5>+977 9851163361</h5>
                         <p>We offer 24/7 service</p>
                     </span>
                 </div>
                 <div>
-                    <i class="fa fa-envelope-o"></i>
+                    <i class="fas fa-envelope"></i>
                     <span>
                         <h5>info@sindhutripura.com</h5>
                         <p>Email us for any queries</p>
@@ -170,22 +170,20 @@
         </div>
     </section>
 
-     <!-- Map Section -->
-     <div class="map-section">
-        <iframe src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467.7574577576538!2d85.36161880675859!3d27.66445936883667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b568e543db7%3A0x5fce2f03ade7d2d8!2sThapa%20Chowk!5e1!3m2!1sen!2snp!4v1745415313972!5m2!1sen!2snp" allowfullscreen="" loading="lazy"></iframe>
+    <div class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467.7574577576538!2d85.36161880675859!3d27.66445936883667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b568e543db7%3A0x5fce2f03ade7d2d8!2sThapa%20Chowk!5e1!3m2!1sen!2snp!4v1745415313972!5m2!1sen!2snp" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <footer>
         <h4>About Us</h4>
         <p>Sindhu Tripura Grill Workshop - Your trusted partner in metal fabrication and design solutions.</p>
         <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
         </div>
-        <p>Made with <i class="fa fa-heart-o"></i> by Sindhu Tripura</p>
+        <p>Made with <i class="fas fa-heart"></i> by Sindhu Tripura</p>
     </footer>
-   
    
     <script src="menu.js"></script>
 </body>
